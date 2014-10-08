@@ -1,0 +1,213 @@
+ga:country,ga:region,ga:city,ga:users
+United States,Texas,Houston,97
+Canada,Quebec,Montreal,73
+Canada,Alberta,Calgary,35
+Canada,Ontario,Ottawa,25
+United States,California,San Francisco,22
+United Kingdom,England,London,20
+United States,New York,New York,19
+Canada,Ontario,Toronto,19
+Canada,Quebec,Quebec City,16
+United States,Georgia,Atlanta,10
+United States,Texas,Sugar Land,9
+United States,Texas,The Woodlands,9
+United States,Connecticut,Stamford,8
+Canada,Ontario,Mississauga,8
+United States,California,Palo Alto,7
+United States,California,San Jose,7
+United States,Washington,Seattle,6
+United States,Texas,Austin,6
+United States,Texas,Dallas,6
+Canada,Quebec,Chicoutimi,6
+Brazil,Sao Paulo,Sao Paulo,6
+United States,Pennsylvania,Feasterville-Trevose,5
+United States,California,Santa Clara,5
+United Kingdom,England,Hertfordshire,4
+Russia,Republic of Bashkortostan,Sterlitamak,4
+Netherlands,South Holland,Rotterdam,4
+Japan,Kanagawa,Yokohama,4
+Canada,Quebec,La Baie,4
+Canada,Quebec,Saint-Lin-Laurentides,4
+Canada,British Columbia,Vancouver,4
+Australia,Queensland,Gladstone,4
+United States,Texas,Richardson,3
+United States,South Carolina,Columbia,3
+United States,New Jersey,Hoboken,3
+United States,Illinois,Chicago,3
+United States,Illinois,Des Plaines,3
+United States,California,San Rafael,3
+United Kingdom,England,Burton upon Trent,3
+Singapore,(not set),Singapore,3
+Canada,Quebec,Gatineau,3
+Canada,Quebec,Pointe-Claire,3
+Canada,Quebec,Shawinigan,3
+Canada,Alberta,Sherwood Park,3
+United States,Washington,Bainbridge Island,2
+United States,Pennsylvania,King of Prussia,2
+United States,Pennsylvania,Trexlertown,2
+United States,Oregon,Beaverton,2
+United States,California,Danville,2
+United States,California,Fairfield,2
+United States,California,Foster City,2
+United States,California,Los Angeles,2
+United States,California,Mill Valley,2
+United States,California,Milpitas,2
+United States,California,Mountain View,2
+United States,California,Stanford,2
+United States,Arizona,New River,2
+Peru,(not set),Lima,2
+Mexico,Veracruz,Heroica Veracruz,2
+France,Ile-de-France,Courbevoie,2
+France,Ile-de-France,Paris,2
+Ecuador,(not set),Ecuador,2
+Canada,Quebec,Hull,2
+Canada,Quebec,Laval,2
+Canada,Quebec,Levis,2
+Canada,Quebec,Sherbrooke,2
+Brazil,State of Goias,Goiania,2
+Brazil,Sao Paulo,Osasco,2
+Brazil,Sao Paulo,Ribeirao Preto,2
+Australia,Western Australia,Perth,2
+Uruguay,Uruguay,(not set),1
+United States,Washington,Spokane,1
+United States,Washington,Union Hill-Novelty Hill,1
+United States,Utah,Millcreek,1
+United States,Utah,Salt Lake City,1
+United States,Texas,(not set),1
+United States,Texas,College Station,1
+United States,Texas,Fort Worth,1
+United States,Texas,Plano,1
+United States,Texas,San Antonio,1
+United States,Texas,Waller,1
+United States,Tennessee,Gatlinburg,1
+United States,Pennsylvania,Malvern,1
+United States,Ohio,Cleveland,1
+United States,Ohio,Olde West Chester,1
+United States,North Carolina,Wake Forest,1
+United States,New York,Troy,1
+United States,New Jersey,Newark,1
+United States,Nebraska,Omaha,1
+United States,Montana,Kalispell,1
+United States,Montana,Whitefish,1
+United States,Minnesota,St. Paul Park,1
+United States,Massachusetts,Belmont,1
+United States,Massachusetts,Boston,1
+United States,Massachusetts,Framingham,1
+United States,Maryland,Frederick,1
+United States,Maryland,North Bethesda,1
+United States,Maryland,Wheaton-Glenmont,1
+United States,Hawaii,Honolulu,1
+United States,District of Columbia,Washington,1
+United States,Connecticut,Branford,1
+United States,Connecticut,Shelton,1
+United States,Connecticut,Westport,1
+United States,Colorado,Broomfield,1
+United States,Colorado,Centennial,1
+United States,Colorado,Denver,1
+United States,California,Fremont,1
+United States,California,Garden Grove,1
+United States,California,Larkspur,1
+United States,California,Long Beach,1
+United States,California,Menlo Park,1
+United States,California,Oakland,1
+United States,California,Pico Rivera,1
+United States,California,Sacramento,1
+United States,California,San Ramon,1
+United States,California,Tamalpais-Homestead Valley,1
+United States,California,Vineyard,1
+United States,Arkansas,Yellville,1
+United States,(not set),(not set),1
+United Kingdom,Scotland,Aberdeen,1
+United Kingdom,Scotland,Edinburgh,1
+United Kingdom,England,Aldershot,1
+United Kingdom,England,Bristol,1
+United Kingdom,England,Camberley,1
+United Kingdom,England,Leatherhead,1
+United Kingdom,England,Reading,1
+Spain,Community of Madrid,Fuenlabrada,1
+Spain,Community of Madrid,Madrid,1
+Spain,Aragon,Teruel,1
+Serbia,(not set),Kikinda,1
+Russia,Moscow,Moscow,1
+Puerto Rico,(not set),PR-AT LARGE,1
+Portugal,Lisbon,Lisbon,1
+Portugal,Azores,Angra do Heroismo,1
+Philippines,Metro Manila,Makati,1
+Philippines,Metro Manila,Manila,1
+Peru,Piura,(not set),1
+Paraguay,Paraguay,Paraguay,1
+New Zealand,Waikato,Hamilton,1
+Netherlands,South Holland,The Hague,1
+Mexico,State of Mexico,Toluca,1
+Mexico,San Luis Potosi,San Luis Potosi,1
+Mexico,Jalisco,Guadalajara,1
+Malta,(not set),Malta,1
+Japan,Tokyo,Chiyoda,1
+Japan,Tokyo,Minato,1
+Japan,Tokyo,Shibuya,1
+Italy,Tuscany,Prato,1
+Italy,Piedmont,Turin,1
+Italy,Lazio,Rome,1
+Indonesia,Jakarta,(not set),1
+Indonesia,Jakarta,Jakarta,1
+India,Maharashtra,Mumbai,1
+India,Maharashtra,Navi Mumbai,1
+India,Haryana,Gurgaon,1
+India,(not set),Hyderabad,1
+Hungary,Hajdu-Bihar,Debrecen,1
+Germany,Hesse,Frankfurt,1
+France,Picardy,Amiens,1
+France,Ile-de-France,Clamart,1
+France,Ile-de-France,Vitry-sur-Seine,1
+France,Centre,Tours,1
+France,Brittany,Rennes,1
+France,Aquitaine,Bayonne,1
+France,Alsace,Ferrette,1
+Egypt,Damietta,Damietta,1
+Denmark,Region Syddanmark,Odense,1
+Czech Republic,Central Bohemian Region,Melnik,1
+Colombia,Bolivar,Arjona,1
+China,Beijing,Beijing,1
+Canada,Saskatchewan,Lloydminster,1
+Canada,Quebec,Alma,1
+Canada,Quebec,Blainville,1
+Canada,Quebec,Boisbriand,1
+Canada,Quebec,Bonaventure,1
+Canada,Quebec,Chateauguay,1
+Canada,Quebec,Dorion,1
+Canada,Quebec,Granby,1
+Canada,Quebec,La Pocatiere,1
+Canada,Quebec,Louiseville,1
+Canada,Quebec,Mont-Saint-Hilaire,1
+Canada,Quebec,Sainte-Anne-des-Monts--Tourelle,1
+Canada,Quebec,Victoriaville,1
+Canada,Ontario,Oakville,1
+Canada,Newfoundland and Labrador,"St. John's",1
+Canada,British Columbia,Invermere,1
+Canada,British Columbia,Vernon,1
+Canada,Alberta,Canmore,1
+Canada,Alberta,Edmonton,1
+Bulgaria,Sofia-city,Sofia,1
+Brazil,State of Goias,Anapolis,1
+Brazil,Sao Paulo,Cubatao,1
+Brazil,Sao Paulo,Elias Fausto,1
+Brazil,Sao Paulo,Indaiatuba,1
+Brazil,Sao Paulo,Presidente Prudente,1
+Brazil,Sao Paulo,Sao Jose dos Campos,1
+Brazil,Sao Paulo,Sertaozinho,1
+Brazil,Sao Paulo,Taubate,1
+Brazil,Santa Catarina,Criciuma,1
+Brazil,Rio de Janeiro,Sao Goncalo,1
+Brazil,Rio de Janeiro,Volta Redonda,1
+Brazil,Pernambuco,Recife,1
+Brazil,Parana,Curitiba,1
+Brazil,Minas Gerais,Belo Horizonte,1
+Brazil,Minas Gerais,Para de Minas,1
+Brazil,Mato Grosso,(not set),1
+Brazil,Espirito Santo,Vitoria,1
+Brazil,Ceara,Fortaleza,1
+Brazil,Bahia,Salvador,1
+Belarus,Belarus,Belarus,1
+Argentina,Tucuman,San Miguel de Tucuman,1
+Argentina,Santa Fe Province,Rosario,1
+Argentina,Autonomous City of Buenos Aires,Buenos Aires,1

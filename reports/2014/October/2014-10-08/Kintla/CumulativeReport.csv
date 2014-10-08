@@ -1,0 +1,148 @@
+ga:country,ga:region,ga:city,ga:users
+United States,California,San Francisco,40
+United States,California,Santa Clara,15
+United States,California,San Jose,14
+United States,Nevada,Sparks,10
+United States,Virginia,Ashburn,9
+United States,Texas,Houston,9
+United States,California,Cupertino,9
+United States,California,Mountain View,9
+United States,California,Palo Alto,8
+United States,California,Milpitas,6
+United States,South Carolina,Columbia,5
+United States,Illinois,Chicago,5
+United Kingdom,England,London,5
+United States,South Carolina,Greenville,4
+United States,New York,New York,4
+United States,California,Fremont,4
+United States,California,Menlo Park,4
+United States,California,San Mateo,4
+Brazil,Sao Paulo,Sao Paulo,4
+Brazil,Rio de Janeiro,Rio de Janeiro,4
+Australia,Queensland,Gladstone,4
+United States,Wisconsin,Eau Claire,3
+United States,West Virginia,Morgantown,3
+United States,Michigan,Lyon Township,3
+United States,California,Half Moon Bay,3
+United States,California,Oakland,3
+United States,California,Redwood City,3
+United States,California,San Rafael,3
+Brazil,Parana,Curitiba,3
+United States,West Virginia,Huntington,2
+United States,Virginia,Reston,2
+United States,Texas,Austin,2
+United States,Pennsylvania,Pittsburgh,2
+United States,Montana,Kalispell,2
+United States,California,Brentwood,2
+United States,California,Claremont,2
+United States,California,Mill Valley,2
+United States,(not set),(not set),2
+Philippines,Metro Manila,Manila,2
+Italy,Lazio,Rome,2
+Canada,Quebec,Montreal,2
+Vietnam,Hanoi,Hanoi,1
+United States,Washington,Bainbridge Island,1
+United States,Washington,Seattle,1
+United States,Utah,Ogden,1
+United States,Tennessee,Nashville,1
+United States,South Carolina,Aiken,1
+United States,South Carolina,North Myrtle Beach,1
+United States,Pennsylvania,Levittown,1
+United States,Ohio,Cleveland,1
+United States,Ohio,Gambier,1
+United States,New York,Buffalo,1
+United States,New Jersey,East Orange,1
+United States,New Jersey,Vineland,1
+United States,Nevada,Enterprise,1
+United States,Nevada,Paradise,1
+United States,Massachusetts,Williamstown,1
+United States,Kentucky,Richmond,1
+United States,Indiana,Crawfordsville,1
+United States,Illinois,Pontiac,1
+United States,Georgia,Atlanta,1
+United States,District of Columbia,Washington,1
+United States,Connecticut,Chester,1
+United States,Colorado,Denver,1
+United States,California,Arroyo Grande,1
+United States,California,Burbank,1
+United States,California,Corona,1
+United States,California,Dana Point,1
+United States,California,Davis,1
+United States,California,Dublin,1
+United States,California,El Dorado Hills,1
+United States,California,Fresno,1
+United States,California,Lafayette,1
+United States,California,Los Gatos,1
+United States,California,Millbrae,1
+United States,California,Piedmont,1
+United States,California,San Diego,1
+United States,California,Stanford,1
+United States,California,Stockton,1
+United States,California,Sunnyvale,1
+United States,(not set),New York,1
+United Kingdom,England,Halifax,1
+United Kingdom,England,Reading,1
+United Kingdom,England,Teddington,1
+Sweden,Stockholm County,Solna,1
+Spain,Catalonia,(not set),1
+Spain,Andalusia,Lucena,1
+Serbia,(not set),Novi Sad,1
+Romania,Maramures County,Baia Mare,1
+Portugal,Porto District,Vila do Conde,1
+Philippines,Cebu,Cebu City,1
+Peru,Junin,Huancayo,1
+Peru,Arequipa,(not set),1
+Moldova,(not set),Chisinau,1
+Mexico,Puebla,Puebla,1
+Mexico,Baja California,Tijuana,1
+Mexico,Aguascalientes,Aguascalientes,1
+Mauritius,Mauritius,(not set),1
+Italy,Tuscany,Lucca,1
+Italy,Sicily,Catania,1
+Italy,Piedmont,Turin,1
+Italy,Lombardy,Milan,1
+Italy,Apulia,Santeramo In Colle,1
+Israel,Center District,Netanya,1
+India,Kerala,Thrissur,1
+Hungary,Heves County,Gyongyos,1
+Germany,North Rhine-Westphalia,Cologne,1
+Germany,Mecklenburg-Vorpommern,Sassnitz,1
+France,Picardy,Amiens,1
+Ecuador,Pichincha,Quito,1
+Croatia,Split-Dalmatia County,Split,1
+Croatia,City of Zagreb,Zagreb,1
+Colombia,Valle del Cauca,Cali,1
+Colombia,Bogota,Bogota,1
+Chile,Tarapaca Region,Iquique,1
+Chile,Los Lagos Region,Osorno,1
+Cayman Islands,Cayman Islands,(not set),1
+Canada,British Columbia,Osoyoos,1
+Brazil,Sao Paulo,Assis,1
+Brazil,Sao Paulo,Cotia,1
+Brazil,Sao Paulo,Jundiai,1
+Brazil,Sao Paulo,Rio Claro,1
+Brazil,Sao Paulo,Santos,1
+Brazil,Santa Catarina,(not set),1
+Brazil,Santa Catarina,Criciuma,1
+Brazil,Rio de Janeiro,Sao Goncalo,1
+Brazil,Rio Grande do Sul,(not set),1
+Brazil,Rio Grande do Sul,Porto Alegre,1
+Brazil,Rio Grande do Sul,Vacaria,1
+Brazil,Rio Grande do Norte,Parnamirim,1
+Brazil,Pernambuco,Recife,1
+Brazil,Parana,(not set),1
+Brazil,Parana,Cascavel,1
+Brazil,Parana,Mangueirinha,1
+Brazil,Parana,Matelandia,1
+Brazil,Minas Gerais,(not set),1
+Brazil,Maranhao,(not set),1
+Brazil,Espirito Santo,Vila Velha,1
+Brazil,Ceara,Fortaleza,1
+Brazil,Bahia,(not set),1
+Brazil,Bahia,Salvador,1
+Brazil,Amazonas,(not set),1
+Brazil,Alagoas,(not set),1
+Bosnia and Herzegovina,Federation of Bosnia and Herzegovina,Mostar,1
+Australia,Western Australia,Perth,1
+Argentina,San Juan Province,San Juan,1
+Argentina,Salta Province,Salta,1
