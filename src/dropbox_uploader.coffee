@@ -6,24 +6,29 @@ fs      = require 'fs'
 
 class DropboxUploader
   constructor: ->
-    @remotePath = "#{moment().format('YYYY/MMMM/YYYY-MM-DD')}"
-    @files = glob.sync "#{@remotePath}/**/*.csv", cwd: './reports'
+    @remotePath = moment().format('YYYY/MMMM/MM-DD-YYYY')
+    @files = glob.sync "#{@remotePath}/**/*.{zip,csv}", cwd: './reports'
     @client = new Dropbox.Client
       key: process.env.DROPBOX_KEY
       secret: process.env.DROPBOX_SECRET
       token: process.env.DROPBOX_OAUTH_KEY
 
-  publish: (callback) ->
+  publish: (done) ->
     async.waterfall [
       @checkDir.bind @
       @makeDir.bind @
       @writeFiles.bind @
-    ], callback
+    ], done
 
   checkDir: (cb) ->
-    @client.readdir @remotePath, (err, files, info) =>
-      cb err if err?
-      cb null, info?.isFolder
+    @client.readdir @remotePath, (err, files, info) ->
+
+    if err?
+      if err.status == Dropbox.ApiError.NOT_FOUND
+        cb null, false
+      else
+        cb err
+    cb null, true
 
   makeDir: (skip, cb) ->
     if skip

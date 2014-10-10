@@ -1,6 +1,9 @@
 nodemailer = require 'nodemailer'
+markdown   = require('nodemailer-markdown').markdown
 ses        = require 'nodemailer-ses-transport'
 moment     = require 'moment'
+config     = require('./../config.json')[process.env.NODE_ENV || 'development']
+_          = require 'underscore'
 
 class Mailer
   constructor: ->
@@ -9,19 +12,26 @@ class Mailer
       secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY
       region: 'us-west-2'
 
-    @mailer = nodemailer.createTransport sesTransport
+    @transporter = nodemailer.createTransport sesTransport
+    @transporter.use 'compile', markdown()
+
+  buildRecipientList: ->
+    _.map config.recipients, (recipient) -> "#{recipient.name} <#{recipient.email}>"
 
   # Send reports email to list of recipients
-  sendReports: ->
+  sendReports: (done) ->
     messageParams =
       from: 'Tyler Hughes <tyler@freestoneinternational.com>'
-      to: 'iampbt@gmail.com'
-      html: '<h1>Hey</h1><p>This is a test</p>'
-      text: 'Hey\nThis is a test'
-      subject: "Freestone Traffic Report - #{moment().format('YYYY-MM-DD')}"
+      to: @buildRecipientList()
+      markdown: """
+        Here's the latest batch of traffic reports for all Freestone web properties.
 
-    @mailer.sendMail messageParams, (err, info) ->
-      console.error err if err?
-      console.log info
+        A .zip file is attached for download, or you can view the reports in Dropbox at this URL: 
+      """
+      subject: "Freestone Traffic Reports for #{moment().format('MMMM Do YYYY')}"
+
+    @transporter.sendMail messageParams, (err, info) ->
+      done err if err?
+      done null, info
 
 module.exports = new Mailer
