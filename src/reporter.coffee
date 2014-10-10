@@ -6,6 +6,7 @@ _            = require 'underscore'
 csv          = require 'fast-csv'
 mkdirp       = require 'mkdirp'
 fs           = require 'fs'
+path         = require 'path'
 
 class Reporter extends EventEmitter
   constructor: ->
@@ -35,11 +36,11 @@ class Reporter extends EventEmitter
       callback(err) if err?
       @webProperties = props
       @propertyIds = _.map @webProperties, (prop) -> prop.id
-      do callback
+      callback null, props
 
-  createCumulativeReport: (property, opts = {}, callback) ->
+  createReport: (opts = {}, callback) ->
     # Get profiles for property
-    @report.getProfiles @acctId, property.id, (err, profiles) =>
+    @report.getProfiles @acctId, opts.property.id, (err, profiles) =>
       options =
         'ids'        : "ga:#{profiles[0].id}"
         'start-date' : '2013-01-01'
@@ -47,25 +48,26 @@ class Reporter extends EventEmitter
         'metrics'    : 'ga:users'
         'dimensions' : 'ga:country,ga:region,ga:city'
         'sort'       : '-ga:users,-ga:country,-ga:region'
-      _.extend options, opts
+      _.extend options, opts.query
 
       # Execute query
       @report.get options, (err, data) =>
         callback(err) if err?
+
         csvData = [_.map data.columnHeaders, (col) -> col.name]
         if data.rows?
           for row in data.rows
             csvData.push row
 
-        # Create the CSV file & write its data
-        fileRoot = "./reports/#{moment().format('YYYY/MMMM/YYYY-MM-DD')}/#{property.name}"
-        mkdirp.sync fileRoot unless fs.exists fileRoot
+        dir = path.dirname opts.path
+        mkdirp.sync dir unless fs.exists dir
 
-        csv
-          .writeToPath "#{fileRoot}/CumulativeReport.csv", csvData, headers: true
+        csv.writeToPath opts.path, csvData, headers: true
           .on 'error', (err) ->
-            console.error err
+            callback err
           .on 'finish', ->
-            do callback
+            callback null, fs.readFileSync opts.path
+          
+
 
 module.exports = new Reporter
