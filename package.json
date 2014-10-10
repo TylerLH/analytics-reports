@@ -1,6 +1,6 @@
 {
   "name": "analytics-reporter",
-  "version": "0.0.0",
+  "version": "0.2.0",
   "description": "Creates a report for a collection of properties on a Google Analytics account",
   "main": "index.js",
   "scripts": {
