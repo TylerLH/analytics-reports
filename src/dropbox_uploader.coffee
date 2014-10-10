@@ -18,6 +18,7 @@ class DropboxUploader
       @checkDir.bind @
       @makeDir.bind @
       @writeFiles.bind @
+      @shareUrl.bind @
     ], done
 
   checkDir: (cb) ->
@@ -49,5 +50,10 @@ class DropboxUploader
     @client.writeFile file, fs.readFileSync("./reports/#{file}"), (err, info) ->
       cb(err) if err?
       cb null
+
+  shareUrl: (cb) ->
+    @client.makeUrl @remotePath, (err, sharedUrl) ->
+      cb err if err?
+      cb null, sharedUrl
 
 module.exports = new DropboxUploader

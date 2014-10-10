@@ -33,13 +33,17 @@ reporter.once 'ready', ->
     # Generate and save zip file
     console.log 'Saving zip file...'
     zipData = zip.generate type: 'nodebuffer'
-    fs.writeFileSync "./reports/#{folderFormat}/TrafficReports_#{moment().format('MM-DD-YYYY')}.zip", zipData
+    zipPath = "./reports/#{folderFormat}/TrafficReports_#{moment().format('MM-DD-YYYY')}.zip"
+    fs.writeFileSync zipPath, zipData
 
     # Publish reports & zip to Dropbox
-    dropbox.publish (err) ->
+    dropbox.publish (err, sharedUrl) ->
       throw err if err?
       console.log 'Published to Dropbox.'
 
-      mailer.sendReports (err) ->
+      mailer.sendReports 
+        zip: zipData
+        sharedUrl: sharedUrl
+      , (err) ->
         console.log 'Reports sent.'
         console.log 'Finished!'
